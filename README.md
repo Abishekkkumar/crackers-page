@@ -16,19 +16,21 @@ A simple responsive landing page built with **HTML** and **CSS**.
 
 ## 🛠️ Built With
 - HTML5  
-- CSS3 (Flexbox/Grid)  
+- CSS3 (Flexbox/Grid)
+- Javascript
 
 ---
 
 ## ✨ Features
 - Responsive layout (works on mobile & desktop)  
 - Clean, modern design  
-- Simple hover effects  
+- Simple hover effects  and features
 
 ---
 
 ## 🎯 What I Learned
 - Structuring semantic HTML  
 - Using CSS Flexbox/Grid for layouts  
-- Styling navigation and sections  
+- Styling navigation and sections
+- Javascript DOM
 

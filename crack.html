@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RR Crackers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Top notice/banner ===== -->
+  <div class="banner" role="region" aria-label="Shipping notice">
+    <div class="banner-inner">
+      <button class="arrow-left" aria-label="Previous">
+        <img src="asserts/leftarrow.png" alt="" />
+      </button>
+      <div class="textbox">
+        <img src="asserts/cube.svg" alt="">
+        <span>Delivery in 2–4 business days</span>
+      </div>
+      <button class="arrow-right" aria-label="Next">
+        <img src="asserts/rightarrow.png" alt="" />
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="site-header">
+    <div class="nav-bar">
+      <!-- Mobile burger -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <!-- Logo -->
+      <a class="logo" href="/" aria-label="RR Crackers home">
+        <img src="asserts/logo.png" alt="RR Crackers">
+      </a>
+
+      <!-- Center nav (desktop) -->
+      <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+        <a class="active" href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Safety Tips</a>
+        <a href="#">Contact Us</a>
+      </nav>
+
+      <!-- Right actions -->
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">
+          <img src="asserts/search.svg" alt="">
+        </button>
+
+        <!-- Cart trigger + live badge -->
+        <a class="icon-btn cart-btn" href="#" aria-label="Cart" data-open-cart>
+          <img src="asserts/cart.svg" alt="">
+          <span class="badge" data-cart-count aria-label="0 items" style="display:none">0</span>
+        </a>
+
+        <a class="btn cta-desktop" href="#">Get Price List</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero-banner">
+    <img src="asserts/bacgroundfire.jpg" alt="Fireworks background" class="hero-img" />
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <h1>Premium-Grade Fireworks<br>at Factory Prices</h1>
+      <p>Every cracker is safety-checked and quality-certified.</p>
+      <button class="btn hero-cta">SHOP NOW</button>
+
+      <div class="hero-dots" role="tablist" aria-label="Hero slides">
+        <button class="dot active" aria-selected="true" aria-label="Slide 1"></button>
+        <button class="dot" aria-label="Slide 2"></button>
+        <button class="dot" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Feature strip (marquee) ===== -->
+  <div class="feature-strip marquee" aria-label="Store highlights">
+    <div class="marquee-track">
+      <div class="feature"><img src="assets/genuine-icon.svg" alt=""><span>100% Genuine Sivakasi Crackers</span></div>
+      <div class="feature"><img src="asserts/hands.png" alt=""><span>Trusted by 50,000+ Families</span></div>
+      <div class="feature"><img src="asserts/van.png" alt=""><span>Pan-India Delivery Available</span></div>
+      <div class="feature"><img src="asserts/trust.png" alt=""><span>Top-Quality Fireworks Only</span></div>
+      <div class="feature"><img src="assets/packing-icon.svg" alt=""><span>Premium Packing Assurance</span></div>
+      <!-- duplicate for seamless scroll -->
+      <div class="feature"><img src="assets/genuine-icon.svg" alt=""><span>100% Genuine Sivakasi Crackers</span></div>
+      <div class="feature"><img src="asserts/hands.png" alt=""><span>Trusted by 50,000+ Families</span></div>
+      <div class="feature"><img src="asserts/van.png" alt=""><span>Pan-India Delivery Available</span></div>
+      <div class="feature"><img src="asserts/trust.png" alt=""><span>Top-Quality Fireworks Only</span></div>
+      <div class="feature"><img src="assets/packing-icon.svg" alt=""><span>Premium Packing Assurance</span></div>
+    </div>
+  </div>
+
+  <!-- ===== Experience Before You Order ===== -->
+  <section class="videosection">
+    <div class="section-heading"><h2>✴ Experience Before You Order ✴</h2></div>
+    <div class="firework">
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/skyshot.png" alt="Sky Shots">
+        <div class="mini-icon"><img src="asserts/mini-skyshot.png" alt=""></div>
+        <p class="label">Sky Shots</p>
+      </div>
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/sparkle.png" alt="Sparklers">
+        <div class="mini-icon"><img src="asserts/minisparkle.png" alt=""></div>
+        <p class="label">Sparklers</p>
+      </div>
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/rocxket.png" alt="Rocket">
+        <div class="mini-icon"><img src="asserts/minirocket.png" alt=""></div>
+        <p class="label">Rocket</p>
+      </div>
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/singleshot.png" alt="Single Shot">
+        <div class="mini-icon"><img src="asserts/minisingleshot.png" alt=""></div>
+        <p class="label">Single Shot</p>
+      </div>
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/chakkars.png" alt="Chakkars">
+        <div class="mini-icon"><img src="asserts/minischakkers.png" alt=""></div>
+        <p class="label">Chakkars</p>
+      </div>
+      <div class="crackermodel">
+        <img class="main-img" src="asserts/flowerpots.png" alt="Flower Pots">
+        <div class="mini-icon"><img src="asserts/miniflowwerpot.png" alt=""></div>
+        <p class="label">Flower Pots</p>
+      </div>
+    </div>
+    <div class="viewall-button"><button>View All</button></div>
+  </section>
+
+  <!-- ===== Shop By Collection ===== -->
+  <section class="shopbycollection">
+    <h2>🌟 Shop By Collection 🌟</h2>
+    <div class="collection-grid">
+      <div class="collection-card">
+        <img src="asserts/daytimecarcklers.png" alt="Day Time Crackers">
+        <h3>Day Time Crackers</h3><p>114 products</p>
+      </div>
+      <div class="collection-card">
+        <img src="asserts/nyttim,ecarck.png" alt="Night Time Crackers">
+        <h3>Night Time Crackers</h3><p>250 products</p>
+      </div>
+      <div class="collection-card">
+        <img src="asserts/kids.png" alt="Kids">
+        <h3>Kids</h3><p>94 products</p>
+      </div>
+      <div class="collection-card">
+        <img src="asserts/fam,ily.png" alt="Family">
+        <h3>Family</h3><p>119 products</p>
+      </div>
+      <div class="collection-card">
+        <img src="asserts/gift.png" alt="Gift Box">
+        <h3>Gift Box</h3><p>55 products</p>
+      </div>
+    </div>
+    <div class="collection-btn"><button>Shop All</button></div>
+  </section>
+
+  <!-- ===== New Arrivals (DYNAMIC) ===== -->
+  <section class="new-arrivals">
+    <h2>✨ New Arrivals ✨</h2>
+    <div class="product-grid" data-product-list></div>
+  </section>
+
+  <!-- ===== Trusted + Store ===== -->
+  <section class="trusted-section">
+    <div class="trusted-container">
+      <div class="trusted-left">
+        <h2>Your Trusted Crackers Supplier ✴️</h2>
+        <p class="subtitle">From dazzling garlands to sky-filling aerial shots – we make every moment unforgettable.</p>
+        <div class="trusted-stats">
+          <div class="stat-box"><strong>10+</strong><span>Years of Experience</span></div>
+          <div class="stat-box"><strong>250+</strong><span>Cracker Types</span></div>
+          <div class="stat-box"><strong>100%</strong><span>Customer Satisfaction</span></div>
+          <div class="stat-box"><strong>4.9 ★</strong><span>Customer Ratings</span></div>
+        </div>
+        <button class="cta-btn">Explore Our Collection</button>
+      </div>
+      <div class="trusted-right">
+        <img src="asserts/responsive-image → jordan-gonzalez-kWdkuyRB1yY-unsplash.webp (1).jpg" alt="Diwali Family Celebration" />
+      </div>
+    </div>
+
+    <div class="store-trust-section">
+      <div class="store-left">
+        <img src="asserts/responsive-image → jordan-gonzalez-kWdkuyRB1yY-unsplash.webp.png" alt="Store shelves" />
+      </div>
+
+      <div class="store-right">
+        <h3>RR Crackers ✴️</h3>
+        <p class="store-sub">Celebrating Every Moment with Light & Joy</p>
+        <p class="store-desc">
+          We’re proud to be a trusted name in the crackers industry—delivering high-quality fireworks for every celebration.
+          From flower pots and rockets to sparklers and electric crackers, we offer a wide range of fireworks made with safe, certified materials.
+        </p>
+
+        <div class="trust-logos">
+          <img src="asserts/minischakkers.png" alt="ISO Certified" />
+          <img src="asserts/minischakkers.png" alt="NEERI Certified" />
+          <img src="asserts/minisinglkeshot.png" alt="Eco Friendly" />
+        </div>
+
+        <button class="cta-btn">View All</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Safety Tips ===== -->
+  <section class="safety-tips">
+    <h2>✨ Celebrate with Care ✨</h2>
+    <p class="safety-subtitle">Simple steps for a safe, bright, and colorful celebration.</p>
+
+    <div class="tips-container">
+      <div class="tip-box do">
+        <h3>DO</h3>
+        <ul>
+          <li><span>🔥</span> Keep a fire extinguisher nearby</li>
+          <li><span>🛡️</span> Use protective eyewear</li>
+          <li><span>💧</span> Light one cracker at a time</li>
+          <li><span>🧒</span> Supervise children closely</li>
+          <li><span>💦</span> Keep a bucket of water nearby</li>
+        </ul>
+        <img class="tip-icon" src="asserts/Do icon.png" alt="">
+      </div>
+
+      <div class="tip-box dont">
+        <h3>DON'T</h3>
+        <ul>
+          <li><span>🚫</span> Never light crackers indoors</li>
+          <li><span>✋</span> Never hold crackers in your hand</li>
+          <li><span>🔥</span> Never relight a dud cracker</li>
+          <li><span>👶</span> Never allow children to light crackers alone</li>
+          <li><span>🍷</span> Never light crackers under the influence</li>
+        </ul>
+        <img class="tip-icon" src="asserts/Dont icon.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="testimonial-section">
+    <div class="testimonial-wrapper">
+      <h2 class="testimonial-heading">Over 50,000+ Families Celebrated Safely with RR Crackers</h2>
+
+      <div class="testimonial-carousel">
+        <div class="testimonial-fade left-fade"></div>
+
+        <div class="testimonial-card center">
+          <p class="testimonial-title">120 Royal Multi Color Shots</p>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            “Everything arrived safely and on time! The packing was top-notch, and the crackers were exactly as shown on the website. Loved the sparkler set especially!”
+          </p>
+          <div class="testimonial-user">
+            <img src="asserts/userid.png" alt="User" class="user-img" />
+            <div class="user-info">
+              <p class="user-name">Rohit M</p>
+              <p class="user-location">— Coimbatore, Tamil Nadu</p>
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="testimonial-fade right-fade"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trusted Brands ===== -->
+  <section class="trusted-brands">
+    <h2 class="trusted-heading">Trusted Brands We Deal With</h2>
+    <div class="brand-logos">
+      <div class="brand-logo"><img src="your-logo-path/standard.png" alt="Standard"></div>
+      <div class="brand-logo"><img src="your-logo-path/blue.png" alt="Blue"></div>
+      <div class="brand-logo"><img src="your-logo-path/asok.png" alt="Asok"></div>
+      <div class="brand-logo"><img src="your-logo-path/asian.png" alt="Asian"></div>
+      <div class="brand-logo"><img src="your-logo-path/vanitha.png" alt="Vanitha"></div>
+    </div>
+  </section>
+
+  <div class="line"><p>-------------------------------------------------------------------------------------</p></div>
+
+  <!-- ===== Features icons ===== -->
+  <section class="features-section">
+    <div class="feature">
+      <div class="icon"><img src="icons/phone.svg" alt=""></div>
+      <h4>24/7 Call & Order</h4>
+      <p>
+        <a href="tel:+919838001685">+91 98380 01685</a>,
+        <a href="tel:+917043530001">+91 70435 30001</a>,
+        <a href="tel:+918144432061">+91 81444 32061</a>
+      </p>
+    </div>
+    <div class="feature">
+      <div class="icon"><img src="icons/delivery.svg" alt=""></div>
+      <h4>Pan India Delivery</h4>
+      <p>Express shipping across India, right to your doorstep.</p>
+    </div>
+    <div class="feature">
+      <div class="icon"><img src="icons/box.svg" alt=""></div>
+      <h4>Festival Ready Packaging</h4>
+      <p>Beautiful, damage-proof delivery guaranteed.</p>
+    </div>
+    <div class="feature">
+      <div class="icon"><img src="icons/payment.svg" alt=""></div>
+      <h4>Secure payment</h4>
+      <p>UPI, Credit/Debit Card, Netbanking — all options accepted.</p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-qr">
+      <div class="qr-box">
+        <h4>Scan to pay</h4>
+        <div class="qr-phone"><img src="asserts/qr.png" alt=""><span>84380 01669</span></div>
+        <img src="asserts/qr.png" alt="QR Code" class="qr-img" />
+        <button class="download-btn">⬇️ Download QR</button>
+      </div>
+    </div>
+
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4>COMPANY</h4>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+        <a href="#">Stores</a>
+      </div>
+      <div class="footer-col">
+        <h4>COLLECTIONS</h4>
+        <a href="#">Day Time Crackers</a>
+        <a href="#">Night Time Crackers</a>
+        <a href="#">Kids Collection</a>
+        <a href="#">Gift Boxes</a>
+      </div>
+      <div class="footer-col">
+        <h4>SUPPORT</h4>
+        <a href="#">Refund Policy</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="footer-col">
+        <h4>SUBSCRIBE TO OUR EMAILS</h4>
+        <p>Subscribe to receive all our updates and offers,<br> and get a 10% discount on your first purchase.</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Email" required>
+          <button aria-label="Subscribe">→</button>
+        </div>
+        <small>By subscribing you agree to the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Cart Backdrop + Drawer ===== -->
+  <div class="cart-backdrop" data-cart-backdrop></div>
+
+  <aside class="cart-drawer" data-cart-drawer aria-label="Shopping cart">
+    <header class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="cart-close" data-close-cart aria-label="Close cart">×</button>
+    </header>
+
+    <ul class="cart-items" data-cart-items></ul>
+
+    <footer class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <strong data-cart-total>₹0.00</strong>
+      </div>
+      <button class="btn btn-primary" data-checkout-btn>Checkout</button>
+    </footer>
+  </aside>
+
+  <!-- Main app JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>

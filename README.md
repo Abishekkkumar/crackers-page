@@ -5,7 +5,8 @@ A simple responsive landing page built with **HTML** and **CSS**.
 ---
 
 ## 🚀 Live Demo
-👉 [View the site here](https://abishekkkumar.github.io/crackers-page/)
+## 🚀 Live Demo
+[View the site](https://abishekkkumar.github.io/crackers-page/)
 
 ---
 
